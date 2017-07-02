@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A NASA photo search using VueJS",
   "author": "digitalgnome <digitalgnomes@gmail.com>",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalgnome/nasa-search.git"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
