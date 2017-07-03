@@ -1,0 +1,10 @@
+{
+  "name": "nasa-image-search",
+  "version": "1.0.0",
+  "description": "An app to search NASA images",
+  "author": "Tariq Khan",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+}
