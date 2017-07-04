@@ -32,7 +32,7 @@
         <div class="col-xs-12">
           <h4 v-html="imageOfDayTitle"></h4>
           <div class="video-container">
-            <iframe width="853" height="480" src="https://www.youtube.com/embed/dtY44sPNHcU" frameborder="0" allowfullscreen></iframe>
+            <iframe width="853" height="480" :src="imageOfDayURL" frameborder="0" allowfullscreen></iframe>
           </div>
           <p class="original-image" style="text-align: center;">
             <small>
@@ -100,8 +100,6 @@ export default {
         this.imageOfDayTitle = imageStartParsed.title;
         this.imageOfDayURL = imageStartParsed.url;
         this.imageOfDayDesc = imageStartParsed.explanation;
-        console.log(response.data);
-        console.log(this.imageOfDayURL);
       });
     },
     getResult(query) {
