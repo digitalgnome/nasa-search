@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "An app to search NASA images",
   "author": "Tariq Khan",
-  "private": true,,
+  "private": true,
   "engines": {
     "node": "8.1.4"
   },
   "scripts": {
-    "postinstall": "npm install express"
+    "postinstall": "npm install express",
+    "deploy": "git subtree push — prefix dist heroku master"
   }
 }
