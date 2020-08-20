@@ -1,3 +1,3 @@
-# nasa-search
+# [NASA Search](https://nasa-search.herokuapp.com/)
 
-> A NASA photo search using VueJS
+> A search of NASA's images and videos API built with VueJS and Axios.
